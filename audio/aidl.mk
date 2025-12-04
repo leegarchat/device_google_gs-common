@@ -31,4 +31,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
        ro.audio.ihaladaptervendorextension_enabled=true
 
-$(call soong_config_set,pixel_audio_hal_type,aidl_build,true)
+$(call soong_config_set_bool,pixel_audio_hal_type,aidl_build,true)
